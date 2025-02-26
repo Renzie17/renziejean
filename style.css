@@ -47,3 +47,64 @@ h1 {
     color: rgb(245, 238, 238);
     font-size: 20px;
 }
+
+
+section {
+    padding: 100px 0;
+
+}
+
+#about h2, #about h3 {
+    text-transform: uppercase;
+    font-weight: 800;
+
+}
+#about h3 {
+    color: burlywood;
+}
+
+#about img {
+    border: 7px white;
+    box-shadow:0 0 rgb(155, 215, 210);
+    border-radius: 25px;
+}
+
+.card-img-top {
+    width: 35%
+}
+
+.card-img-top {
+    width: 40%
+}
+
+.card {
+    padding: 25px 20px;
+    transition: all ease-in 0.5s;
+    border: #697fa5;
+    box-shadow: 0 0 15px 0 rgb(138, 218, 250);
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.card:hover {
+    background-color: rgb(108, 120, 185);
+    box-shadow: 0 0 15px cornflowerblue
+}
+
+.card:hover .card-title,
+.card:hover .card-text {
+    color: rgb(222, 184, 135);
+
+}
+
+#services h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 55px;
+    color: rgb(16, 17, 17);
+    margin-bottom: 30px;
+}
+
+#services {
+    background: #b4b4fbb2;
+}
